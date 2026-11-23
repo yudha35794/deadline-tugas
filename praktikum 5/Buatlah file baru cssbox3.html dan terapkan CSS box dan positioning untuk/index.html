@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box dan Positioning 2</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+    }
+
+    #wrapper {
+      position: relative;
+      width: 432px;
+      height: 311px;
+      margin: 0 auto;
+    }
+
+    .box {
+      position: absolute;
+      border: 1px solid #000;
+      box-sizing: border-box;
+    }
+
+    #kuning {
+      top: 0;
+      left: 0;
+      width: 85px;
+      height: 35px;
+      background: #f5ea46;
+    }
+
+    #oranye {
+      top: 0;
+      left: 92px;
+      width: 340px;
+      height: 35px;
+      background: #ff6624;
+    }
+
+    #hijau {
+      top: 41px;
+      left: 0;
+      width: 85px;
+      height: 232px;
+      background: #aedd94;
+    }
+
+    #abu {
+      top: 41px;
+      left: 92px;
+      width: 247px;
+      height: 232px;
+      background: #d0d4d8;
+    }
+
+    #biru-muda {
+      top: 41px;
+      left: 347px;
+      width: 85px;
+      height: 232px;
+      background: #4fd8fa;
+    }
+
+    #footer {
+      top: 279px;
+      left: 0;
+      width: 432px;
+      height: 32px;
+      background: #1166f5;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="box" id="kuning"></div>
+    <div class="box" id="oranye"></div>
+    <div class="box" id="hijau"></div>
+    <div class="box" id="abu"></div>
+    <div class="box" id="biru-muda"></div>
+    <div class="box" id="footer"></div>
+  </div>
+</body>
+</html>
